@@ -1,0 +1,15 @@
+.navbar {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+
+  a {
+    text-align: center;
+    cursor: pointer;
+    margin-right: 2em;
+
+    &:hover {
+      color: teal;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 44%;
+
+  p {
+    text-align: right;
+  }
+
+  .stars-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    .react-stars {
+      outline: none;
+    }
+  }
+  .buttons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      cursor: pointer;
+      &:first-child {
+        margin-right: 2rem;
+      }
+    }
+  }
+}

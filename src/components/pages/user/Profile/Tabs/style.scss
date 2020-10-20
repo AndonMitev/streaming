@@ -1,0 +1,11 @@
+.tabs {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+  p {
+    cursor: pointer;
+  }
+}
