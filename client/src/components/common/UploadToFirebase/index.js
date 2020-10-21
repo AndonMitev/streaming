@@ -1,7 +1,7 @@
 import React from 'react';
 import { uploadImagesService } from '../../../services/common';
 
-export const UploadMultipleFiles = ({ getUrls }) => {
+export const UploadToFirebase = ({ getUrls }) => {
   const onFileChange = async (event) => {
     const { files } = event.target;
 
